@@ -58,6 +58,11 @@ nav{
     font-size: 20px;
 }
 
+nav li .active{
+    color:red;
+    cursor: pointer;
+    border-bottom: 3px red solid;
+}
 nav a {
     text-decoration: none;
 }
@@ -407,10 +412,8 @@ form #range, form #color{
     font-size: 15px;
 }
 
-#btn1:hover{
-    transition: 0.5s;
-    transform: scale(1.05);
-    background-color: #058aff;
+#btn1:active {
+    box-shadow: 2px 2px 5px blue;
 }
 
 #rom, #ram{
